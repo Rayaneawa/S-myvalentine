@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Valentine 💌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="envelope">
+        <div class="flap"></div>
+
+        <div class="envelope-body">
+            <div class="note-paper">
+                <h1>Will you be my valentine? ❤️</h1>
+                <div class="container">
+                    <button id="yesBtn">YES 😍</button>
+                    <button id="noBtn">NO 😢</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main full-screen modal -->
+    <div id="modalyes" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeyes">×</span>
+
+            <!-- Gallery with 10 cute photos -->
+            <div class="gallery-container" id="galleryContainer">
+                <div class="gallery-item"><img src="pic.jpg" alt="Couple holding flowers"></div>
+                <div class="gallery-item"><img src="pic.jpg" alt="Romantic couple embrace"></div>
+                <div class="gallery-item"><img src="pic.jpg" alt="Sweet love note"></div>
+                <div class="gallery-item"><img src="pic.jpg" alt="Hearts and couple"></div>
+                <div class="gallery-item"><img src="pic.jpg" alt="Couple with heart balloons"></div>
+                <div class="gallery-item"><img src="pic.jpg" alt="Man giving bouquet"></div>
+                <div class="gallery-item"><img src="pic.jpg" alt="Couple kiss in flowers"></div>
+                <div class="gallery-item"><img src="pic.jpg" alt="Romantic sunset couple"></div>
+                <div class="gallery-item"><img src="pic.jpg" alt="Couple walking hand in hand"></div>
+                <div class="gallery-item"><img src="pic.jpg" alt="Couple with love sign"></div>
+            </div>
+
+            <!-- Main content with button to open love letter -->
+            <div class="main-content">
+                <h2>Happy Valentine's Day, my love! ❤️</h2>
+                <p>Here are some cute memories of us... 💕</p>
+                <button id="openLetterBtn" class="open-letter-btn">Open My Love Letter 💌</button>
+            </div>
+        </div>
+
+        <!-- Love Letter modal -->
+        <div id="letterModal" class="letter-modal">
+            <div class="letter-content">
+                <span class="letter-close">×</span>
+                <div class="letter-paper">
+                    <h2>My Dearest 💖</h2>
+                    <p>Every time I see your smile, my heart does a little happy dance. You're the sweetest part of my every day, the reason I look forward to tomorrow. Thank you for being you — my favorite person in the whole world. Will you keep stealing my heart forever? ♡</p>
+                    <p class="signature">Forever yours,<br>Rayven</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
