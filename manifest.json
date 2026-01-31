@@ -1,0 +1,21 @@
+{
+  "name": "My Valentine",
+  "short_name": "Valentine",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff0f5",
+  "theme_color": "#ff99ac",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
